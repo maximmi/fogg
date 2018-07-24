@@ -20,6 +20,12 @@
   version = "v1.2.1"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/andreyvit/diff"
+  packages = ["."]
+  revision = "c7f18ee00883bfd3b00e0a2bf7607827e0148ad4"
+
+[[projects]]
   name = "github.com/aokoli/goutils"
   packages = ["."]
   revision = "3391d3790d23d03408670993e957e8f408993c34"
@@ -333,6 +339,12 @@
 
 [[projects]]
   branch = "master"
+  name = "github.com/phayes/permbits"
+  packages = ["."]
+  revision = "529f712b661aa1075f21a3d7380f3a998556c1a2"
+
+[[projects]]
+  branch = "master"
   name = "github.com/pkg/errors"
   packages = ["."]
   revision = "816c9085562cd7ee03e7f8188a1cfd942858cded"
@@ -359,6 +371,12 @@
   name = "github.com/segmentio/go-prompt"
   packages = ["."]
   revision = "f0d19b6901ade831d5a3204edc0d6a7d6457fbb2"
+
+[[projects]]
+  name = "github.com/sergi/go-diff"
+  packages = ["diffmatchpatch"]
+  revision = "1744e2970ca51c86172c8190fadad617561ed6e7"
+  version = "v1.0.0"
 
 [[projects]]
   name = "github.com/sirupsen/logrus"
@@ -477,6 +495,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "75fa8debf056bc7041f0fe07adb5f635e67c3ffdc3f2730c4eb3261c7b5506ee"
+  inputs-digest = "237d06cbde10d38fa0a692187ff986098187adfa193fcf1f3c023233d755f12d"
   solver-name = "gps-cdcl"
   solver-version = 1

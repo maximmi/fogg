@@ -51,9 +51,13 @@
   version = "3.5.1"
 
 [[constraint]]
-  name = "gopkg.in/src-d/go-git.v4"
-  version = "4.5.0"
-
-[[constraint]]
   name = "github.com/sirupsen/logrus"
   version = "1.0.5"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/phayes/permbits"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/andreyvit/diff"
